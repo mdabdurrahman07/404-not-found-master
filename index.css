@@ -4,7 +4,7 @@
     font-family: 'Inconsolata', monospace;
 
 }
-
+/* header related style */
 .head-title{
     color: #333;
     font-size: 24px;
@@ -15,4 +15,59 @@
     text-transform: uppercase;
     margin-top: 40px;
     margin-left: 78px;
+}
+/* main section related style */
+.Scarecrow-text-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90vh;
+}
+.crow-pic{
+    width: 650px;
+    height: 500px;
+}
+
+
+.error-title{
+    color: var(--gray-1, #333);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.24px;
+    margin-bottom: 20px;
+}
+.error-description{
+    color: var(--gray-2, #4F4F4F);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.84px;
+    margin-bottom: 49px;
+}
+.homepage-btn{
+    background: var(--gray-1, #333);
+    color: white;
+    padding: 20px 43px;
+    border: none;
+    font-size: 15px;
+}
+/* footer related style */
+.footer-title{
+        color: #BDBDBD;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer-title > u{
+    color: #BDBDBD;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
